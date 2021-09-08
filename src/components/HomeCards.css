@@ -1,0 +1,16 @@
+.cards {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  max-width: 1120px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.cardGroup {
+  position: relative;
+  width: 100%;
+  height: auto;
+  flex-flow: wrap;
+  display: flex;
+}
