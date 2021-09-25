@@ -28,8 +28,13 @@ function HomeBanner() {
               variant="outlined"
               color="primary"
               endIcon={<KeyboardArrowDownIcon />}
-              style = {{
-                marginRight: "20px"
+              style={{
+                marginRight: "20px",
+              }}
+              onClick={() => {
+                document
+                  .getElementById("aboutMe")
+                  .scrollIntoView({ behavior: "smooth" });
               }}
             >
               Scroll Down
@@ -38,8 +43,25 @@ function HomeBanner() {
               variant="outlined"
               color="primary"
               endIcon={<AttachFileIcon />}
+              style={{
+                marginRight: "20px",
+              }}
             >
               Resume
+            </Button>
+            <Button
+              variant="outlined"
+              color="primary"
+              style={{
+                marginRight: "20px",
+              }}
+              onClick={() => {
+                document
+                  .getElementById("homeCardContainer")
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
+              Latest Projects
             </Button>
           </div>
         </div>

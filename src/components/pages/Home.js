@@ -3,12 +3,14 @@ import "../../App.css";
 import HomeBanner from "../HomeBanner/HomeBanner";
 import HomeCards from "../HomeCards";
 import Footer from "../Footer";
+import AboutMe from "../AboutMe/AboutMe";
 
 function Home() {
   return (
     <>
       <HomeBanner></HomeBanner>
-      <div className={"homeCardContainer"}>
+      <AboutMe></AboutMe>
+      <div id={"homeCardContainer"}>
         <HomeCards></HomeCards>
       </div>
       <Footer></Footer>

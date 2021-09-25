@@ -13,7 +13,12 @@ function NavBar() {
     <>
       <nav className="navBar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick={() => {
+                  closeMobileMenu();
+                  document
+                    .getElementById("root")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}>
             Malcom
           </Link>
 
@@ -24,21 +29,29 @@ function NavBar() {
           </div>
           <ul className={active ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <Link
+                to=""
+                className="nav-links"
+                onClick={() => {
+                  closeMobileMenu();
+                  document
+                    .getElementById("aboutMe")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
                 About Me!
               </Link>
             </li>
             <li className="nav-item">
               <Link
-                to="/past-projects"
+                to=""
                 className="nav-links"
-                onClick={closeMobileMenu}
-              >
+                onClick={() => {
+                  closeMobileMenu();
+                  document
+                    .getElementById("homeCardContainer")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}              >
                 Past Projects
               </Link>
             </li>

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@500&display=swap');
 .homeBannerContainer > img {
   object-fit: cover;
   width: 100%;
@@ -29,15 +29,18 @@
   width: 100%;
 }
 #homeBannerContent {
-  font-family: "Lato", sans-serif;
-  font-size: 3em;
+  font-family: 'Hahmlet', sans-serif;
+  font-size: 4em;
   color: whitesmoke;
   display: block;
 
 }
+#homeBannerContent > h2{
+    font-size: 1em;
+  }
 #homeBannerContent > h3{
-    font-family: "Lato", sans-serif;
-    font-size: 20px;
+    font-family: 'Hahmlet', sans-serif;
+    font-size: 0.4em;
     color: rgba(150, 150, 150, 0.829);
     display: block;
   
