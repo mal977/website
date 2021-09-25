@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Icon from "@material-ui/core/Icon";
+import Icon from "@mui/material/Icon";
 import { Link } from "react-router-dom";
-import { common } from "@material-ui/core/colors";
+import { common } from "@mui/material/colors";
 import "./NavBar.css";
 
 function NavBar() {
@@ -18,7 +18,7 @@ function NavBar() {
           </Link>
 
           <div className="menu-icon" onClick={handleClick}>
-            <Icon style={{ color: common.white , fontSize:40}}>
+            <Icon style={{ color: common.white, fontSize: 40 }}>
               {active ? "clear" : "menu"}
             </Icon>
           </div>

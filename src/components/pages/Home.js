@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-import HomeBanner from "../HomeBanner";
+import HomeBanner from "../HomeBanner/HomeBanner";
 import HomeCards from "../HomeCards";
 import Footer from "../Footer";
 
