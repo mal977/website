@@ -26,46 +26,51 @@ function HomeBanner() {
             <h1>Hello!</h1>
             <h2>I'm Malcom</h2>
             <h3>Student|Developer</h3>
-            <Button
-              variant="outlined"
-              color="primary"
-              endIcon={<KeyboardArrowDownIcon />}
-              style={{
-                marginRight: "20px",
-              }}
-              onClick={() => {
-                document
-                  .getElementById("aboutMe")
-                  .scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Scroll Down
-            </Button>
-            <Button
-              variant="outlined"
-              color="primary"
-              endIcon={<AttachFileIcon />}
-              style={{
-                marginRight: "20px",
-              }}
-              href={Pdf}
-            >
-              Resume
-            </Button>
-            <Button
-              variant="outlined"
-              color="primary"
-              style={{
-                marginRight: "20px",
-              }}
-              onClick={() => {
-                document
-                  .getElementById("projects")
-                  .scrollIntoView({ behavior: "smooth" });
-              }}
-            >
-              Latest Projects
-            </Button>
+            <div id="buttonHolder">
+              <Button className="btn"
+                variant="outlined"
+                color="primary"
+                endIcon={<KeyboardArrowDownIcon />}
+                style={{
+                  marginRight: "20px",
+                  marginBottom: "20px",
+                }}
+                onClick={() => {
+                  document
+                    .getElementById("aboutMe")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Scroll Down
+              </Button>
+              <Button
+                variant="outlined"
+                color="primary"
+                endIcon={<AttachFileIcon />}
+                style={{
+                  marginRight: "20px",
+                  marginBottom: "20px",
+                }}
+                href={Pdf}
+              >
+                Resume
+              </Button>
+              <Button
+                variant="outlined"
+                color="primary"
+                style={{
+                  marginBottom: "20px",
+                  marginRight: "20px",
+                }}
+                onClick={() => {
+                  document
+                    .getElementById("projects")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Latest Projects
+              </Button>
+            </div>
           </div>
         </div>
         <img src={"images/landing-bg.jpg"} alt={"Home Banner Background"} />

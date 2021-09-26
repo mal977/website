@@ -46,6 +46,9 @@
   
   }
 
-#homebannerContent > Button{
-    margin-left: 4px;
+#buttonHolder {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
+

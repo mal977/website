@@ -8,7 +8,7 @@ export const GridContainer = styled.section`
   place-items: start center;
   column-gap: 2rem;
   row-gap: 3rem;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.md} {
     display: flex;
     flex-direction: column;
     padding: 2rem;
@@ -21,7 +21,7 @@ export const BlogCard = styled.div`
   text-align: center;
   width: 500px;
   background: white;
-  @media ${(props) => props.theme.breakpoints.sm} {
+  @media ${(props) => props.theme.breakpoints.lg} {
     width: 100%;
   }
 `;
