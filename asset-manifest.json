@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.b3d8cd64.chunk.css",
+    "main.js": "/website/static/js/main.ba7ee4ac.chunk.js",
+    "main.js.map": "/website/static/js/main.ba7ee4ac.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.f060e03b.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.f060e03b.js.map",
+    "static/js/2.3f13394d.chunk.js": "/website/static/js/2.3f13394d.chunk.js",
+    "static/js/2.3f13394d.chunk.js.map": "/website/static/js/2.3f13394d.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.b3d8cd64.chunk.css.map": "/website/static/css/main.b3d8cd64.chunk.css.map",
+    "static/js/2.3f13394d.chunk.js.LICENSE.txt": "/website/static/js/2.3f13394d.chunk.js.LICENSE.txt",
+    "static/media/malcom_resume_website.6c4aebe5.pdf": "/website/static/media/malcom_resume_website.6c4aebe5.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f060e03b.js",
+    "static/js/2.3f13394d.chunk.js",
+    "static/css/main.b3d8cd64.chunk.css",
+    "static/js/main.ba7ee4ac.chunk.js"
+  ]
+}
