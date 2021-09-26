@@ -1,12 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 #projects {
-    background: blueviolet;
+  background: rgb(221, 221, 221);
 }
 
-#gridContainer{
-    display: grid;
-grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-padding: 3rem;
-place-items: center;
-column-gap: 2rem;
-row-gap: 3rem;
+
+.solid {
+    margin-bottom: ;
 }

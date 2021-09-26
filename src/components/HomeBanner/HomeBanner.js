@@ -6,6 +6,7 @@ import Button from "@mui/material/Button";
 import ButtonGroup from "@mui/material/ButtonGroup";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
+import Pdf from "../../files/malcom_resume_website.pdf";
 
 const theme = createTheme({
   palette: {
@@ -15,6 +16,7 @@ const theme = createTheme({
     },
   },
 });
+
 function HomeBanner() {
   return (
     <ThemeProvider theme={theme}>
@@ -46,6 +48,7 @@ function HomeBanner() {
               style={{
                 marginRight: "20px",
               }}
+              href={Pdf}
             >
               Resume
             </Button>
@@ -57,7 +60,7 @@ function HomeBanner() {
               }}
               onClick={() => {
                 document
-                  .getElementById("homeCardContainer")
+                  .getElementById("projects")
                   .scrollIntoView({ behavior: "smooth" });
               }}
             >

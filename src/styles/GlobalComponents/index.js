@@ -7,13 +7,28 @@ export const Section = styled.section`
   height: fit-content;
   width: 100%;
   padding-top: 10vh;
+  @media ${(props) => props.theme.breakpoints.md} {
+    padding: 24px 48px 0;
+    flex-direction: column;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: ${(props) => (props.nopadding ? "0" : "16px 16px 0")};
+    flex-direction: column;
+  }
 `;
 
 export const SectionBody = styled.div`
   text-align: center;
-  max-width: ${(props) => (props.project ? "90vw" : "60vw")};
+  max-width: ${(props) => (props.project ? "70vw" : "60vw")};
   margin-left: auto;
   margin-right: auto;
+
+  @media ${(props) => props.theme.breakpoints.md} {
+     max-width: ${(props) => (props.project ? "90vw" : "80vw")};
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    max-width: 100%};
+  }
 `;
 
 export const SubSection = styled.div`

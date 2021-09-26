@@ -49,7 +49,7 @@ function NavBar() {
                 onClick={() => {
                   closeMobileMenu();
                   document
-                    .getElementById("homeCardContainer")
+                    .getElementById("projects")
                     .scrollIntoView({ behavior: "smooth" });
                 }}              >
                 Past Projects
