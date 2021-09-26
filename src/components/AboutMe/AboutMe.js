@@ -11,14 +11,21 @@ import {
   FaPython,
 } from "react-icons/fa";
 import { DiMysql, DiGit } from "react-icons/di";
+import {
+  Section,
+  SectionBody,
+  SubSection,
+  SectionTitle,
+  SectionText,
+} from "../../styles/GlobalComponents/index";
 
 function AboutMe() {
   return (
-    <div id="aboutMe">
-      <div id="holder">
-        <div class="wrapper">
-          <p class="title">About Me</p>
-          <p class="body">
+    <Section id="aboutMe">
+      <SectionBody>
+        <SubSection>
+          <SectionTitle>About Me</SectionTitle>
+          <SectionText>
             <br />
             My name is Malcom. I'm a developer living in Singapore with
             experience in Mobile and Game Development. I also spend time on
@@ -27,14 +34,14 @@ function AboutMe() {
             <br /> <br />
             Currently I'm a student at Nanyang Technological University getting
             my Bachelors in Computer Science. Check out my past projects below!
-          </p>
-        </div>
+          </SectionText>
+        </SubSection>
         <hr class="solid" />
-        <div class="wrapper">
-          <p class="title">Skills</p>
-          <p class="body">
+        <SubSection>
+          <SectionTitle>Skills</SectionTitle>
+          <SectionText>
             <br /> A list of some of the skills I've learnt!
-          </p>
+          </SectionText>
           <div id="skillHolder">
             <div class="skillItem">
               <FaAndroid size="5rem" color="grey" />
@@ -73,9 +80,9 @@ function AboutMe() {
               <p>Google API Services, Firebase</p>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </SubSection>
+      </SectionBody>
+    </Section>
   );
 }
 
