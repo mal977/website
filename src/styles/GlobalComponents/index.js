@@ -3,12 +3,12 @@ import styled from "styled-components";
 export const Section = styled.section`
   margin-top: auto;
   margin-bottom: auto;
-  min-height: 100vh;
   height: fit-content;
   width: 100%;
-  padding-top: 10vh;
+  padding-top: 80px;
+  min-height:1000px;
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    padding: 80px 48px 0;
     flex-direction: column;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
