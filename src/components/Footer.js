@@ -14,17 +14,16 @@ function Footer() {
         <div className="footer-contact-container">
           <Link
             className={"social-media-links"}
-            to={{ pathname: "https://www.linkedin.com/" }}
+            to={{ pathname: "https://www.linkedin.com/in/malcom-teh/" }}
             target="_blank"
           >
             <img alt="Linkedin" src="images/social_icons/Linkedin.svg" />
           </Link>
           <Link
             className={"social-media-links"}
-            to={{ pathname: "https://www.Bitbucket.com/" }}
+            to={{ pathname: "https://github.com/mal977/" }}
             target="_blank"
           >
-            {" "}
             <img alt="Github" src="images/social_icons/Github.svg" />
           </Link>
         </div>
