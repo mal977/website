@@ -7,7 +7,7 @@ import Theme from './styles/theme'
 function App() {
   return (
     <Theme>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <NavBar />
         <Route path="/" exact component={Home} />
       </Router>

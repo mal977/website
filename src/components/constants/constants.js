@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "0",
-    image: "/images/projects_gallery/easytracker/app_home.jpg",
+    image: "images/projects_gallery/easytracker/app_home.jpg",
     title: "EasyTracker",
     tags: ["Android", "Java", "Mobile", "Firebase"],
     source: "https://github.com/mal977/EasyTrackerAndroid/blob/master/README.md",
@@ -11,7 +11,7 @@ export const projects = [
   },
   {
     id: "1",
-    image: "/images/projects_gallery/dot/dot_home_bg.jpg",
+    image: "images/projects_gallery/dot/dot_home_bg.jpg",
     title: "D.O.T Dementia Online Test",
     tags: ["Unity", "C#", "Mobile"],
     source: "https://github.com/mal977/D.O.T",
@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     id: "2",
-    image: "/images/sgtrack.PNG",
+    image: "images/sgtrack.PNG",
     title: "SGTrack",
     tags: ["Android", "Java", "SQL"],
     visit: "https://play.google.com/store/apps/details?id=com.sgtrack.tracker&hl=en",
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     id: "3",
-    image: "/images/projects_gallery/shattered_space/poster_big.jpg",
+    image: "images/projects_gallery/shattered_space/poster_big.jpg",
     title: "Shattered Space",
     tags: ["UE4", "3DMax", "Quixel"],
     description:

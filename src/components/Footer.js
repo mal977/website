@@ -17,7 +17,7 @@ function Footer() {
             to={{ pathname: "https://www.linkedin.com/" }}
             target="_blank"
           >
-            <img alt="Linkedin" src="/images/social_icons/Linkedin.svg" />
+            <img alt="Linkedin" src="images/social_icons/Linkedin.svg" />
           </Link>
           <Link
             className={"social-media-links"}
@@ -25,7 +25,7 @@ function Footer() {
             target="_blank"
           >
             {" "}
-            <img alt="Github" src="/images/social_icons/Github.svg" />
+            <img alt="Github" src="images/social_icons/Github.svg" />
           </Link>
         </div>
       </section>

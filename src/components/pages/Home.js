@@ -10,7 +10,7 @@ function Home() {
     <>
       <HomeBanner></HomeBanner>
       <AboutMe></AboutMe>
-      <Projects></Projects>
+      <Projects></Projects>  
       <Footer></Footer>
     </>
   );

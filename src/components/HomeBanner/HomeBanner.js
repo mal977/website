@@ -68,7 +68,7 @@ function HomeBanner() {
             </Button>
           </div>
         </div>
-        <img src={"/images/landing-bg.jpg"} alt={"Home Banner Background"} />
+        <img src={"images/landing-bg.jpg"} alt={"Home Banner Background"} />
       </div>
     </ThemeProvider>
   );
