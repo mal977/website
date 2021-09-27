@@ -1,12 +1,12 @@
 import React from "react";
-import "./HomeBanner.css";
 import "../../App.css";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from "@mui/material/Button";
-import ButtonGroup from "@mui/material/ButtonGroup";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Pdf from "../../files/malcom_resume_website.pdf";
+import { Section } from "../../styles/GlobalComponents/index.js"
+import { HomeBannerWrapper, HomeBannerContent, HomeBannerImg, HomeButtonHolder, HomeButton } from "./HomeBannerStyles";
 
 const theme = createTheme({
   palette: {
@@ -20,13 +20,18 @@ const theme = createTheme({
 function HomeBanner() {
   return (
     <ThemeProvider theme={theme}>
-      <div className="homeBannerContainer">
-        <div id="homeBannerWrapper">
-          <div id="homeBannerContent">
+      <Section nopadding>
+        <HomeBannerWrapper>
+          <HomeBannerContent>
             <h1>Hello!</h1>
-            <h2>I'm Malcom</h2>
-            <h3>Student|Developer</h3>
-            <div id="buttonHolder">
+            <h2 style={{ fontSize: "1em" }}>I'm Malcom</h2>
+            <h3 style={{
+              fontFamily: ['Hahmlet', 'sans-serif'],
+              fontSize: "0.4em",
+              color: "rgba(150, 150, 150, 0.829)",
+              display: "block"
+            }}>Student|Developer</h3>
+            <HomeButtonHolder>
               <Button className="btn"
                 variant="outlined"
                 color="primary"
@@ -70,11 +75,11 @@ function HomeBanner() {
               >
                 Latest Projects
               </Button>
-            </div>
-          </div>
-        </div>
-        <img src={"images/landing-bg.jpg"} alt={"Home Banner Background"} />
-      </div>
+            </HomeButtonHolder>
+          </HomeBannerContent>
+        </HomeBannerWrapper>
+        <HomeBannerImg src={"images/landing-bg.jpg"} alt={"Home Banner Background"} />
+      </Section>
     </ThemeProvider>
   );
 }

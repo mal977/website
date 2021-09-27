@@ -5,8 +5,9 @@ export const Section = styled.section`
   margin-bottom: auto;
   height: fit-content;
   width: 100%;
-  padding-top: 80px;
-  min-height:1000px;
+  padding-top: ${(props) => (props.nopadding ? "0px" : "80px")};
+  min-height: 100vh;
+  display: flex;
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 80px 48px 0;
     flex-direction: column;
