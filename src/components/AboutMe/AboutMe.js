@@ -36,46 +36,46 @@ function AboutMe() {
             my Bachelors in Computer Science. Check out my past projects below!
           </SectionText>
         </SubSection>
-        <hr class="solid" />
+        <hr className="solid" />
         <SubSection>
           <SectionTitle>Skills</SectionTitle>
           <SectionText>
             <br /> A list of some of the skills I've learnt!
           </SectionText>
           <div id="skillHolder">
-            <div class="skillItem">
+            <div className="skillItem">
               <FaAndroid size="5rem" color="grey" />
               <p>Android</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaJava size="5rem" color="grey" />
               <p>Java</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaReact size="5rem" color="grey" />
               <p>React</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaUnity size="5rem" color="grey" />
               <p>Unity</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaWindows size="5rem" color="grey" />
               <p>C , C# , C++</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <DiGit size="5rem" color="grey" />
               <p>Git</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <DiMysql size="5rem" color="grey" />
               <p>SQL</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaPython size="5rem" color="grey" />
               <p>Python</p>
             </div>
-            <div class="skillItem">
+            <div className="skillItem">
               <FaGoogle size="5rem" color="grey" />
               <p>Google API Services, Firebase</p>
             </div>

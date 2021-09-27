@@ -32,11 +32,10 @@ function Projects() {
         <GridContainer>
           {projects.map(
             ({ id, image, title, description, tags, visit, source }) => (
-              <div>
                 <BlogCard key={id}>
                   <Img src={image}></Img>
                   <TitleContent>
-                    <HeaderThree title>{title}</HeaderThree>
+                    <HeaderThree title="true">{title}</HeaderThree>
                   </TitleContent>
                   <CardInfo>{description}</CardInfo>
                   <div>
@@ -59,7 +58,6 @@ function Projects() {
                     )}
                   </UtilityList>
                 </BlogCard>
-              </div>
             )
           )}
         </GridContainer>
