@@ -9,7 +9,6 @@ export const Section = styled.section`
   min-height: 100vh;
   display: flex;
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 80px 48px 0;
     flex-direction: column;
   }
   @media ${(props) => props.theme.breakpoints.sm} {
