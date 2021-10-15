@@ -19,7 +19,7 @@ export const Section = styled.section`
 
 export const SectionBody = styled.div`
   text-align: center;
-  max-width: ${(props) => (props.project ? "80vw" : "60vw")};
+  max-width: ${(props) => (props.project ? "100vw" : "60vw")};
   margin-left: auto;
   margin-right: auto;
 
