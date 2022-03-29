@@ -4,7 +4,6 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 import AttachFileIcon from "@mui/icons-material/AttachFile";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import Pdf from "../../files/malcom_resume_website.pdf";
 import { Section } from "../../styles/GlobalComponents/index.js"
 import { HomeBannerWrapper, HomeBannerContent, HomeBannerImg, HomeButtonHolder, HomeButton } from "./HomeBannerStyles";
 
@@ -56,7 +55,7 @@ function HomeBanner() {
                   marginRight: "20px",
                   marginBottom: "20px",
                 }}
-                href={Pdf}
+                href={"https://docs.google.com/document/d/1rZtarHUuzsnlxv2OZbVHVH5_TQSBlRz7LCjKPOwPqoA/edit?usp=sharing"}
               >
                 Resume
               </Button>
